@@ -22,11 +22,11 @@ App::App() noexcept
 {
 #if BUNDLE
     JavaScriptBundleFile(L"index.windows");
-    InstanceSettings().UseWebDebugger(false);
+    InstanceSettings().UseDirectDebugger(false);
     InstanceSettings().UseFastRefresh(false);
 #else
     JavaScriptBundleFile(L"index");
-    InstanceSettings().UseWebDebugger(true);
+    InstanceSettings().UseDirectDebugger(true);
     InstanceSettings().UseFastRefresh(true);
 #endif
 

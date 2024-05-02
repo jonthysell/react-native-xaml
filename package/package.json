@@ -45,8 +45,8 @@
     "beachball": "^2.16.0",
     "eslint": "^8.19.0",
     "react": "18.2.0",
-    "react-native": "0.73.0",
-    "react-native-windows": "0.73.4",
+    "react-native": "0.74.0",
+    "react-native-windows": "0.74.1",
     "react-native-typescript-transformer": "*",
     "typescript": "5.0.4"
   },
